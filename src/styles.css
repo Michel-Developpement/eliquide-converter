@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  width: 3em;
+  margin: 0 0.5em;
+}
+form {
+  margin: auto auto;
+}
+.error {
+  color: red;
+  animation: error 0.5 linear 0;
+}
+@keyframes error {
+  from {
+    transform: scaleX(500);
+  }
+  to {
+    transform: none;
+  }
+}
